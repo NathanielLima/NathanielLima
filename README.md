@@ -3,6 +3,9 @@ class GameplayProgrammer : public Programmer
 {
 
 	public:
+		GameplayProgrammer();
+		~GameplayProgrammer();
+	
 		std::string m_name = "Nathaniel";
 		std::string m_name = "Lima";
 		
