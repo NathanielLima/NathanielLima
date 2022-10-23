@@ -6,10 +6,10 @@ class GameplayProgrammer : public Programmer
 		GameplayProgrammer();
 		~GameplayProgrammer();
 	
-		std::string m_name = "Nathaniel";
-		std::string m_name = "Lima";
+		std::string m_FirstName = "Nathaniel";
+		std::string m_LastName = "Lima";
 		
-		std::string m_languages[] = {
+		std::string m_Languages[] = {
 			"C",
 			"C++",
 			"C#",
@@ -17,7 +17,7 @@ class GameplayProgrammer : public Programmer
 			"Javascript"
 		};
 		
-		std::string m_softwares[] = {
+		std::string m_Softwares[] = {
 			"Unity",
 			"Unreal Engine 4",
 			"Microsoft Visual Studio",
